@@ -69,7 +69,7 @@ Documentation is available in the `/docs` folder:
 - [**Tech Stack**](docs/tech_stack.md) - Detailed technology stack breakdown
 
 ## Current Status
-BloomSafe previously shipped on the App Store as an MVP. The app has since been retracted while I moved on to a new project, and this repository is now public as part of a startup accelerator application.
+BloomSafe previously shipped on the App Store as an MVP. The app has since been retracted while I moved on to a new project, and this repository is now public.
 
 ## License
 
