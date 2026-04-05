@@ -1,0 +1,15 @@
+flavors:
+  dev:
+    app:
+      name: "BloomSafe Dev"
+    android:
+      applicationId: "com.bloomsafe.app.dev"
+    ios:
+      bundleId: "com.bloomsafe.app.dev"
+  prod:
+    app:
+      name: "BloomSafe"
+    android:
+      applicationId: "com.bloomsafe.app"
+    ios:
+      bundleId: "com.bloomsafe.app" 

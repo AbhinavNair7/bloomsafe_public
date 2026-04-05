@@ -1,0 +1,8 @@
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.profile-dev.xcconfig"
+#include? "Generated.xcconfig"
+
+ASSET_PREFIX=dev
+BUNDLE_NAME=BloomSafe Dev
+BUNDLE_DISPLAY_NAME=BloomSafe Dev
+FLUTTER_TARGET=lib/main_dev.dart
+FLUTTER_BUILD_MODE=profile

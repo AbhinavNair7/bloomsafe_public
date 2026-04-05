@@ -1,0 +1,79 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+devtools_options.yaml
+.cursor/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code related
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+ios/Pods/
+ios/.symlinks/
+android/.gradle/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Secrets & sensitive data
+.env
+.env.dev
+.env.prod
+!.env.example
+!.env.*.template
+*.keystore
+*.jks
+*.mobileprovision
+*.p12
+*.cer
+*.pem
+*.key
+
+# Local machine and generated configuration
+ios/*/GoogleService-Info*.plist
+android/app/google-services.json
+ios/Flutter/Generated*.xcconfig
+buildServer.json
+Podfile.lock
+*.xcuserstate
+**/xcuserdata/
+.firebase/
+
+# CI-generated scripts
+fix_xcfilelist.sh
+
+# Local properties
+/local.properties
+android/local.properties

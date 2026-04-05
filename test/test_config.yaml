@@ -1,0 +1,28 @@
+flutter_test:
+  # Unit tests
+  - name: "Unit Tests"
+    path: "unit/"
+    timeout: 60
+    platform: vm
+    tags: "unit"
+
+  # Widget tests
+  - name: "Widget Tests"
+    path: "widget/"
+    timeout: 60
+    platform: vm
+    tags: "widget"
+
+  # Integration tests
+  - name: "Integration Tests"
+    path: "integration/"
+    timeout: 120
+    platform: vm
+    tags: "integration"
+
+  # Intensive tests (high timeout for long-running tests)
+  - name: "Intensive Tests"
+    path: "intensive/"
+    timeout: 600
+    platform: vm
+    tags: "intensive" 
